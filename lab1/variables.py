@@ -31,9 +31,9 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 
-2myvar = "John"
-my-var = "John"
-my var = "John"
+#2myvar = "John"
+#my-var = "John"
+#my var = "John"
 
 myVariableName = "John"
 MyVariableName = "John"

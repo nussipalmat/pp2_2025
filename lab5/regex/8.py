@@ -1,7 +1,7 @@
 import re
 
-str = input()
+st = input()
 
-splitted = re.findall('[A-Z][^A-Z]*', str)
+splitted = re.findall('[A-Z][^A-Z]*', st)
 
 print(splitted)

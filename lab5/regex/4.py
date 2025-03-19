@@ -1,8 +1,8 @@
 import re
 
-str = input()
+st = input()
 match = r'[A-Z]+[a-z]+'
-seq = re.findall(match,  str)
+seq = re.findall(match,  st)
 
 if seq:
     print(seq) 

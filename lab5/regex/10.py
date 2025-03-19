@@ -1,8 +1,8 @@
 import re
 
-str = input()
+st = input()
 
-splitted = re.split(' ', str)
+splitted = re.split(' ', st)
 
 for i in range(len(splitted)):
     splitted[i] = splitted[i].lower()

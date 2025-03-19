@@ -1,8 +1,8 @@
 import re
 
-str = input()
+st = input()
 match = 'a(b{2,3})'
-if re.search(match,  str):
+if re.search(match,  st):
     print('YES') 
 else:
     print('NO')

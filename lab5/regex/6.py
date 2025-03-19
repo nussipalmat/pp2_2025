@@ -1,8 +1,8 @@
 import re
 
-str = input()
+st = input()
 
-rep = re.sub('[  . ,]',  ':', str)
+rep = re.sub('[  . ,]',  ':', st)
 if rep:
     print(rep) 
 else:

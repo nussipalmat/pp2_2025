@@ -99,10 +99,10 @@ print(txt)
 txt = f"The price is {20 * 59} dollars"
 print(txt)
 
-txt = "We are the so-called "Vikings" from the north."
+#txt = "We are the so-called "Vikings" from the north."
 
 txt = "We are the so-called \"Vikings\" from the north."
-
+"""
 \'	Single Quote	
 \\	Backslash	
 \n	New Line	
@@ -157,4 +157,4 @@ swapcase()	Swaps cases, lower case becomes upper case and vice versa
 title()	Converts the first character of each word to upper case
 translate()	Returns a translated string
 upper()	Converts a string into upper case
-zfill()	Fills the string with a specified number of 0 values at the beginning
+zfill()	Fills the string with a specified number of 0 values at the beginning """

@@ -2,9 +2,8 @@
 
 def squar_gen(n):
     for i in range(n): 
-        yield i**2
+        return i**2
         
 n = int(input())
 
-for i in squar_gen(n):
-    print(i, end = ' ')
+print(squar_gen(n))
